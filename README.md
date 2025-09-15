@@ -6,13 +6,13 @@
   - Create a new branch called `firstname-lastname` with your name
   - Then checkout to this branch
 - Install dependencies with `npm i`
-- Run `npm run dev` to run your app, then go to `localhost:3000` to see it
-- Changes will update automatically in the browser each time you save
+- Run the app with `npm run dev`, then go to `http://localhost:3000` to see it
+- Edit your code in `src/app/page.tsx`
 
 ## Main Tasks
 
 1. **Create a Todo List**
-   - Users should be able to **add todos** with a simple input and button and have them display in a vertically stacked list
+   - Users should be able to **add todos** with a simple input and button
    - Users should be able to **mark todos as complete or incomplete** using a checkbox
 
 2. **Todo Counter**
@@ -27,8 +27,7 @@
 ## Additional Requirements (if time allows)
 
 1. **Connect to a Dummy Backend**
-   - Use a local backend at **`http://localhost:5000`** or **`http://localhost:8000`**  
-     (depending on if you are running Flask, FastAPI, or another setup)
+   - Use a local backend at **`http://localhost:5000`**
    - On first load, **GET todos** from the backend
    - When a new todo is created, **save it** via the backend
    - Assume the backend will return data in this format:
