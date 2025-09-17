@@ -8,12 +8,11 @@ export default function Home() {
 
       <div className='flex gap-4'>
         {/* Input + button here */}
-
+        
       </div>
 
       {/* Render todos here */}
-
-
+      
       <p>
         Total Completed: 
       </p>
